@@ -1,0 +1,13 @@
+to solve:
+    - fix react error in powershell - why npm/yarn start is throwing an error
+    //  err message: 'react-scripts' is not recognized as an internal or external command,
+         operable program or batch file. error Command failed with exit code 1.
+    //  excluded reasons:
+         start script is missing/undefined: it is there and defined
+         second script key in package.json: there is only one
+         yarn/npm version is out of date: both version is up to date
+         host is set incorrectly: figuring out what a properly set host means
+
+solved:
+    - make touch prompt work in powershell
+    // defining it's function manually did the trick
