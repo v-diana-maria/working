@@ -1,5 +1,0 @@
-tasks: 
-    - going to tibet and kill all the monks
-    - make a interactive site for the learning materials
-
-    
