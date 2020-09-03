@@ -1,0 +1,28 @@
+.main{
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 200px;
+    position: sticky;
+    border-radius: 50%;
+    background-color: #1da8a4;
+}
+
+.sub{
+    height: 70px;
+    width: 70px;
+    left: 300px;
+    top: 300px;
+    position: sticky;
+    border-radius: 50%;
+    background-color: #9257ad;
+}
+.test{
+    height: 70px;
+    width: 70px;
+    left: 300px;
+    top: 300px;
+    position: sticky;
+    border-radius: 50%;
+    background-color: #9257ad;
+}
