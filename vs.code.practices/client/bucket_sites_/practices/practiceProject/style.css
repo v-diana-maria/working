@@ -1,0 +1,12 @@
+
+/* itt meg írtuk a szint a háttérszínt */
+body{
+    background-color: rgb(245, 32, 8);
+}
+h2{
+    color:blue;
+}
+
+#ezDia{
+    color:yellow;
+}

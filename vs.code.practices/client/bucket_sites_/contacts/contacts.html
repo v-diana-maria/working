@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link rel="stylesheet" a href="./contacts.css" />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Nova+Round"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        background-color: #e2e7cb;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: #3c413f;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 16px;
+        color: #cfd4b8;
+        font-family: "Play", sans-serif;
+      }
+
+      .flex-container {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: rgba(8, 76, 97, 0.267);
+      }
+
+      .flex-container > div {
+      background-color: #f1f1f1;
+      width: fit-content;
+      margin: 10px;
+      text-align: center;
+      line-height: 35px;
+      font-family: "Play", sans-serif;
+      font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>contacts + flexbox experimenting</h1>
+
+    <p>The Team</p>
+
+    <br>
+
+    <div class="flex-container">
+      <div>id</div>
+      <div>1</div>
+      <div>2</div>  
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>  
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+    </div>
+    <div class="flex-container">
+      <div>info</div>
+      <div>nev</div>
+      <div>erossegek</div>  
+      <div>foglalkozas</div>
+      <div>hobbi</div>
+      <div>kepesitesek</div>  
+      <div>szabadido</div>
+      <div>lakhely</div>
+      <div>facebook</div>
+      <div>cel</div>
+    </div>
+    <div class="flex-container">
+      <div>1</div>
+      <div>A</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+
+    </div>
+    <div class="flex-container">
+      <div>2</div>
+      <div>B</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>3</div>
+      <div>C</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>4</div>
+      <div>D</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>5</div>
+      <div>E</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>6</div>
+      <div>F</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>7</div>
+      <div>G</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>8</div>
+      <div>H</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+    <div class="flex-container">
+      <div>9</div>
+      <div>I</div>
+      <div>3</div>  
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>  
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+
+
+    <h1>js Object example</h1>
+
+    <br>
+
+    <p id="demo"></p>
+
+    <script>
+      // Create an object:
+      var person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 50,
+        eyeColor: "blue",
+      };
+
+      // Display some data from the object:
+      document.getElementById("demo").innerHTML =
+        person.firstName + " is " + person.age + " years old.";
+    </script>
+
+<br>
+
+<h1>contacts + table form experimenting</h1>
+
+<br>
+<br>
+<br>
+
+    <div class="memo-responsive">
+      <table class="memo-table-all notranslate">
+        <tbody>
+          <tr>
+            <th>CustomerID</th>
+            <th>CustomerName</th>
+            <th>ContactName</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>PostalCode</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>1<br /><br /></td>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Obere Str. 57</td>
+            <td>Berlin</td>
+            <td>12209</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ana Trujillo Emparedados y helados</td>
+            <td>Ana Trujillo</td>
+            <td>Avda. de la Constitución 2222</td>
+            <td>México D.F.</td>
+            <td>05021</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Antonio Moreno Taquería</td>
+            <td>Antonio Moreno</td>
+            <td>Mataderos 2312</td>
+            <td>México D.F.</td>
+            <td>05023</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>4<br /><br /></td>
+            <td>Around the Horn</td>
+            <td>Thomas Hardy</td>
+            <td>120 Hanover Sq.</td>
+            <td>London</td>
+            <td>WA1 1DP</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Berglunds snabbköp</td>
+            <td>Christina Berglund</td>
+            <td>Berguvsvägen 8</td>
+            <td>Luleå</td>
+            <td>S-958 22</td>
+            <td>Sweden</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "particles":{
+        "number":{
+            "value": 80
+        },
+        "color":{
+            "value":"f9f3f4"
+        },
+        "shape": {
+            "type": "triangle"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#kep{
+    position: fixed;
+    height: 550px;
+    width: 550px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#heti {
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 100px    
+}
+
+.button2 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 140px    
+}

@@ -1,0 +1,31 @@
+body{
+    background-image: url("../../images/771846915-2268719.jpg");
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+#myList {
+    color: azure;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    margin:auto;
+    display:block;
+    position: relative;
+    top: 340px
+}

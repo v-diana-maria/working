@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title -->
+    <title>Tell me whyyyy</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="../firstFeladat/public/stylesheets/design.css" type="text/css">
+
+</head>
+<body>
+
+    <h1>Gomb funkciók</h1>
+
+<ul class="center">
+    <li>Miért nem reagál a 3. gomb?</li>
+</ul>
+
+      <main>  
+        <button onclick="myFunction()">Click Me!</button>
+      </main>
+
+      <p id="demo">ennek a helyén lesz az új szöveg</p>
+
+      <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "Hogy kell gombot designolni?";
+        }
+      </script>
+
+<button id="buttonToDesign"onclick="ezegyfunkcio()">Click me</button>
+
+<script>
+  function ezegyfunkcio() {
+    document.getElementById("szoveg").innerHTML = "Back to Main Page";
+  }
+</script>
+
+<button id="szoveg"><a href="../firstFeladat/mainPage.html"></a></button>
+
+</body>
+</html>

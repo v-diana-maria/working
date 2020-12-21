@@ -1,0 +1,9 @@
+body {
+    background-image: /* The image used */
+      url("https://papers.co/wallpaper/papers.co-sa52-blurred-white-blur-wallpaper-40-wallpaper.jpg?download=true");
+    height: 100%; /* Full height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Will not scroll with the rest of the page */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }

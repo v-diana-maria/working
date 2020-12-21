@@ -1,0 +1,83 @@
+body
+{
+    background: url("../../images/index.png");
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#jarvisMini{
+    text-align: center;
+    color: rgb(232, 255, 255);
+    position: relative;
+    top: 12px;
+}
+#problemBtn :hover{
+    color:yellow;
+}
+#projectBtn :hover{
+    color: green;
+    border:2px solid salmon;
+    background-color: aqua;
+}
+
+.b1 {
+    font-family: "Play";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 19px;
+    position: relative;
+    top: 150px;
+    left: 90px;
+  }
+.b2 {
+font-family: "Play";
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 19px;
+position: relative;
+top: 170px;
+left: 147px;
+}
+.b3 {
+font-family: "Play";
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 19px;
+position: relative;
+top: 170px;
+left: 204px;
+}
+.b4 {
+font-family: "Play";
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 19px;
+position: relative;
+top: 170px;
+left: 262px;
+}
+.b5 {
+font-family: "Play";
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 19px;
+position: relative;
+top: 170px;
+left: 308px;
+}

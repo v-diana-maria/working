@@ -1,0 +1,57 @@
+body{
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#kep{
+    position: fixed;
+    height: 550px;
+    width: 550px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#eves {
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button1 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 70px    
+}
+.button2 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 110px    
+}
+.button3 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 150px    
+}
+.button4 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 380px    
+}
+.button5 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 400px    
+}

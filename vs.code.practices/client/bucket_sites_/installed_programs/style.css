@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://www.xmple.com/wallpaper/pink-blue-gradient-linear-5120x2880-c2-87cefa-ffb6c1-a-15-f-14.svg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+hr.dotted {
+  margin: 20px -330px 20px;
+  border: 0;
+  border-top: 2px dotted rgb(53, 53, 53);
+}

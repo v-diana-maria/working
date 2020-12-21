@@ -1,0 +1,72 @@
+body {
+  background: url("https://c.wallhere.com/photos/69/65/minimalism_gradient-222218.jpg!d");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Nova Round";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: "Play";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+h3 {
+  font-family: "Nova Round";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 17px;
+  position: relative;
+  top: 80px;
+}
+
+p {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.a {
+  position: relative;
+  top: 70px;
+}
+
+.b1 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  left: 650px;
+}

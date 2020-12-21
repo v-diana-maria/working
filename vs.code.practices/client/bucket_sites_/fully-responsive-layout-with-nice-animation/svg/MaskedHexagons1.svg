@@ -1,0 +1,42 @@
+<svg width="100%" height="100%" viewBox="0 0 600 640"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <desc>
+    Masked Hexagons
+    removed: vector-effect="non-scaling-stroke" attribute and calculated stroked manually
+    
+    Inspired by http://www.dailyminimal.com/post/159569079394/ap17-903-a-new-geometric-design-every-day
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <defs>
+    <symbol id="hexagon" viewBox="0 0 600 600" overflow="visible">
+      <path d="M300,0L559.8,150L559.8,450L300,600L40.2,450L40.2,150L300,0z"/>
+    </symbol>
+    <mask id="m1">
+      <rect width="100%" height="100%" style="fill:white;stroke:white;stroke-width:20px;" />
+      <use width="300" height="300" xlink:href="#hexagon" transform="rotate(60,300,300) translate(150,0)" style="fill:#000;stroke:#000;stroke-width:10px;" />
+      <circle cx="300" cy="300" r="3" style="fill:#fff;" />
+    </mask>
+  </defs>
+
+  <rect width="100%" height="100%" style="fill:none;stroke:red;display:none;" />
+  <g transform="translate(0,20)">
+    <g id="hexagons" style="fill:green;fill-opacity:0.2;stroke:#000;mask:url(#m1);">
+      <use width="300" height="300" xlink:href="#hexagon" transform="translate(150,0)" style="stroke-width:10px;" />
+      <use width="300" height="300" xlink:href="#hexagon" transform="translate(180,30) scale(0.8)" style="stroke-width:12.5px;" />
+      <use width="300" height="300" xlink:href="#hexagon" transform="translate(210,60) scale(0.6)" style="stroke-width:16.66px;" />
+      <use width="300" height="300" xlink:href="#hexagon" transform="translate(240,90) scale(0.4)" style="stroke-width:25px;" />
+      <use width="300" height="300" xlink:href="#hexagon" transform="translate(270,120) scale(0.2)" style="stroke-width:50px;" />
+    </g>
+    <use width="300" height="300" xlink:href="#hexagons" transform="rotate(60,300,300)" />
+    <use width="300" height="300" xlink:href="#hexagons" transform="rotate(120,300,300)" />
+    <use width="300" height="300" xlink:href="#hexagons" transform="rotate(180,300,300)" />
+    <use width="300" height="300" xlink:href="#hexagons" transform="rotate(240,300,300)" />
+    <use width="300" height="300" xlink:href="#hexagons" transform="rotate(300,300,300)" />
+  </g>
+  
+</svg>

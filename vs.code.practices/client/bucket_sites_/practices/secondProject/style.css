@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://www.catersnews.com/wp-content/uploads/2016/04/3_CATERS_CATERS_UNDERWATER_SURFING_5.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,h3{
+    color:rgb (0, 204, 255);
+}
+#zold{
+    color:rgb(205, 255, 87);
+}
+
+#headerOne{
+    color:rgba(32, 33, 34, 0.966); 
+    font-family: cambria; 
+    border: 2px solid black; 
+    text-align: center
+}
+#headerTwo{
+    color: #00ff7f; 
+    font-family: fantasy; 
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.531),
+    1px -1px 0 rgba(0, 0, 0, 0.497),
+    -1px 1px 0 rgba(0, 0, 0, 0.689),
+    1px 1px 0 rgba(0, 0, 0, 0.689); 
+}
+
+p {
+    color: rgba(0, 18, 22, 0);
+    text-align: center;
+} 
+h4 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.814),
+    1px -1px 0 rgba(0, 0, 0, 0.828),
+    -1px 1px 0 rgba(0, 0, 0, 0.689),
+    1px 1px 0 rgba(0, 0, 0, 0.689);  
+} 

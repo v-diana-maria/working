@@ -1,0 +1,171 @@
+--- Törzs:
+
+doc+enter
+
+--- Script alert:
+
+function myFunction() {
+    alert("");
+  }
+  myFunction()
+  ;
+
+--- Script csatolása:
+
+<script src="app.js"></script>
+
+--- Gomb példa:
+
+<a href="something" class="button3">Very pretentious long button</a>
+
+--- Háttér fájlból, webről:
+
+background-image: url("www...");
+background-image: url("../../images/image.png");
+
+--- Függőleges kijelölés:
+
+shift+alt+bal egér
+
+--- class lehivatkozása css-ben:
+
+.valami
+
+--- id lehivatkozása css-ben:
+
+#valami
+
+--- Gomb kattintásra szöveg-megjelenés
+
+<button id="buttonToDesign"onclick="ezegyfunkcio()">Click me</button>
+
+<p id="szoveg"></p>
+
+<script>
+  function ezegyfunkcio() {
+    document.getElementById("szoveg").innerHTML = "Hellooo";
+  }
+</script>
+
+--- Centerelés:
+
+html:
+
+  <div class="wrapper">
+  ...
+  </div>
+
+css:
+
+  .wrapper {
+  text-align: center;
+  }
+
+--- Szöveg pozicionálás
+
+html:
+
+<ol class=center>
+...
+</ol>
+
+css:
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+    position: relative;
+    top: 100px;
+    font-size: 15px;
+  }
+
+--- Háttér pozicionálás
+
+body {
+  background-image: url("...");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+--- Gomb pozicionálás példák
+
+  --- Vízszintes:
+
+  Html:
+
+    <div class="wrapper">
+    <button class="button1" id="taskBtn"><a href="../secondTask/public/src/task/task.html">Tasks</a></button>
+
+  Css:
+
+    .wrapper {
+    text-align: left;
+    }
+
+    .button1 {
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 170px; left: 350px
+
+  --- Függőleges
+
+  Html:
+
+    <div class="wrapper">
+      <button class="button" id="homepage"><a href="../../../index.html">Homepage</button>
+    </div>
+
+  Css:
+
+    .wrapper {
+    text-align: center;
+    }
+
+    .button {
+    margin:auto;
+    display:block;
+    background: url("../../../../../Hátterek/videoblocks-underwater-background-panoramic-shot_rezculk5fz_thumbnail-full01.png");
+    position: relative;
+    top: 160px
+    }
+
+    --- Továbbiak: https://www.w3schools.com/cssref/pr_background-position.asp
+
+--- Kép méretezése és elhelyezése:
+
+css:
+
+#kep{
+    position: relative;
+    height: 110px;
+    width: 110px;
+    bottom: 60px;
+    left: 160px;
+    border: 0;
+}
+
+--- Funkció deaktiválás egyszerűen:
+
+//
+
+--- myFunction alert kattintásra:
+
+headen belül:
+<script>
+        function myFunction()
+            {
+                alert("Most minden error-mentes...");
+            }
+</script>
+
+bodyn belül:
+<img id="kep" src="../" onclick="myFunction()"/>
+
+--- onmouseover és onmousout event példa
+(képnek a html-el egy mappában kell lennie):
+
+<img id="kep" src="../../../../../../../Hátterek/028_-_404_bot-512.png" onclick="myFunction()" onmouseover="this.src='bot2.png'" onmouseout="this.src='bot1.png'"/>

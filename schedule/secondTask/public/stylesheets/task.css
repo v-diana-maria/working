@@ -1,0 +1,44 @@
+body{
+    background-image: url("../../images/minimalistic_circuits_interface_cyan_1920x1200_wallpaper_Wallpaper_2560x1600_www.wallpaperwell.com.jpg");
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#h-1 {
+    text-align: center;
+    color: rgb(240, 255, 250);
+    position: relative;
+    top: 80px;
+}
+
+li span {
+    border: 20px;
+    border-color: rgba(240, 255, 255, 0.466);
+}
+
+#myList{
+    margin:auto;
+    display:block;
+    color: rgb(215, 238, 238);
+    position: relative;
+    top: 120px; left: 220px;
+    font-size: 14px;
+    line-height: 3;
+    }
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    margin:auto;
+    display:block;
+    position: relative;
+    top: 130px;
+}

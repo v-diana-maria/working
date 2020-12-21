@@ -1,0 +1,65 @@
+body{
+    background-image: url("../../../images/timeline.png");
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#tl{
+    text-align: center;
+    color: rgb(232, 255, 255)
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+margin:auto;
+display:block;
+position: relative;
+top: 420px;
+right: 80px;
+
+}
+
+.wrapper {
+    text-align: left;
+    }
+
+    .button1 {
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 170px; left: 450px;
+    }
+
+    .button2 {
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 170px; left: 550px;
+    }
+
+    .button3 {
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 170px; left: 650px;
+    }
+
+    .button4 {
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 170px; left: 750px;
+    }

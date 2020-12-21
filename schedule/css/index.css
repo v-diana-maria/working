@@ -1,0 +1,102 @@
+body {
+  background: url("https://c.wallhere.com/photos/05/c5/gray_simple_background_empty_minimalism_gradient-238647.jpg!d");
+  background-image: linear-gradient(to right bottom, #868c98, #000000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Nova Round";
+  color: rgb(232, 233, 250);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-size: 25px;
+}
+
+.b1 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 140px;
+  left: 120px;
+}
+
+.b2 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 280px;
+  left: 160px;
+}
+
+.b3 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 370px;
+  left: 260px;
+}
+
+.b4 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 370px;
+  left: 340px;
+}
+
+.b5 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 280px;
+  left: 420px;
+}
+
+.b6 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 140px;
+  left: 450px;
+}

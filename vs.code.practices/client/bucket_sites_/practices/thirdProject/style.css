@@ -1,0 +1,84 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: monospace;
+}
+
+#jarvisMini{
+    text-align: center;
+    color: rgb(232, 255, 255);
+    position: relative;
+}
+
+#particles-js
+{
+    height: 100%;
+    background: url("../../../Hatterek/ws_Night_Stars_2560x1600.jpg");
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#overlay {
+    position: relative;
+    bottom: 400px
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button1{
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 10px; left: 430px
+}
+.button2{
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 10px; left: 480px
+}
+
+.button3{
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 10px; left: 530px
+}
+
+.button4{
+    margin:auto;
+    display:block;
+    position: relative;
+    float: left;
+    top: 10px; left: 580px
+}
+
+#homepage {
+    margin:auto;
+    display:block;
+    position: relative;
+    text-align: center;
+    bottom: 250px    
+}
+
+#kep{
+    position: relative;
+    height: 110px;
+    width: 110px;
+    bottom: 60px;
+    left: 160px;
+    border: 0;
+}

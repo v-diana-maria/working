@@ -1,0 +1,47 @@
+body {
+  background: url("../images/dna.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Nova Round";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+}
+
+div {
+  font-family: "Play";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.b1 {
+  font-family: "Play";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  position: relative;
+  top: 180px;
+  left: 650px;
+}

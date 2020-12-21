@@ -1,0 +1,37 @@
+Kérdések:
+    1 - Hogy kell pl színt egyszerre alkalmazni egy lista összes elemére?
+        {valamit ezzel kell kezdeni} kész
+        
+    2 - Hogy kell középre igazítani lista elemet? kész
+    3 - Hogy kell egy kisebb fejléc után egy nagyobbat tenni? ja...kész
+    4 - Karakter vastagság, dőlt stb?
+    5 - Mi a hiba most meg az indexben
+    6 - és a styleban is most már
+    7 - Hogy mondom meg a proginak, hogy egy bizonyos szakaszra ne vonatkozzon az
+        alkalmazott szín? folyamatban
+        (https://www.w3schools.com/css/css_syntax.asp)
+    8 - Miért nem működik a #id
+    9 - Hogy tudok egy linket kattinthatóvá tenni
+    
+    11 - Hogy tudok egyszerre több ugyanolyan parancsot kitörölni
+        (ld. <p style="color:transparent;"> már sehol sem kell)
+    12 - OK hogy be kell csomagolni a kódokat egy html, head, body anyagba.
+        De mi a különbség ez
+            <link rel="stylesheet" href="style.css" type="text/css">
+        és ez
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        között a style.css-en kívül?
+    13 - Audio-video elementek, autoplay?
+
+
+
+
+
+
+
+
+
+
+
+
+

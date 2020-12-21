@@ -1,0 +1,54 @@
+body{
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.left {
+    text-align: left;
+    list-style-position: inside;
+    position: relative;
+    top: 70px;
+    font-size: 15px;
+  }
+
+#kep {
+    position: fixed;
+    height: 550px;
+    width: 550px;
+    bottom: 0px;
+    right: 0px;
+}
+
+  .wrapper {
+    text-align: center;
+}
+
+.button {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 70px    
+}
+.button1 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 90px    
+}
+.button2 {
+    margin:auto;
+    display:block;
+	position: relative;
+    top: 110px    
+}
