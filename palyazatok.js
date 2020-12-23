@@ -4,51 +4,239 @@ module.exports.feladatok=()=>{
     2: "fontos tudnivalok a fiatal gazda palyazatrol: https://fiatalgazdapalyazat.com/",
     3: "erdotelepites"[{
         id: 1,
+        honlap: "https://agrarkozosseg.hu/palyazatok/erdosites-tamogatasa-2/",
+        telefonszam: "+3670 424 4070",
+        e_mail: "agrarkozosseg@gmail.com",
+        cim: "1037 Budapest, Szépvölgyi út 39",
         egyuttes_elbiralasi_hatarnapok: "2020. december 31. / 2021. június 30. / 2021. december 31.",
         idotartam: "2016. augusztus 15 - 2021. december 31.",
         kivalasztasi_kriteriumok: "",
         tartalmi_ertekelesi_szempont: [{
             id: 1,
         }],
-        tamogatas_formaja: "vissza nem térítendő - kizárólag fizetési igényés benyújtása esetén!!!",
+        tamogatas_formaja: "vissza nem térítendő - kizárólag fizetési igénylés benyújtása esetén!!! (bővebben az egyeb_fontos_tudnivalok obejctben)",
         fizetesi_kerelem_benyujtasa: "ügyfélkapun keresztül, a támogatói okirat hatálybalépését követő 36 hónapon belül",
         csatolando_dokumentumok: [{
-            id: 1,
-            dokumentum: "mérési jegyzőkönyv",
-            rendelkezesre_all: false,
-            csatolva: false,
-            },
-            {
-            id: 2,
-            dokumentum: "",
-            rendelkezesre_all: false,
-            csatolva: false,
+            tamogatasi_kerelemhez:[
+                {
+                id: 1,
+                dokumentum: "mérési jegyzőkönyv",
+                szükseges: true,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+                {
+                id: 2,
+                dokumentum: "az ingatlan használati jogosultságát igazoló okirat, kivéve, ha a B) célterület (! magyarázat lejjebb a 'fontos_tudnivalok' objectben) esetében Korm. r. 3.§ (2) bekezdése szerinti bejelentés ennek igazolását már tartalmazta",
+                szükseges: true,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+                {
+                id: 3,
+                dokumentum: "a B) célterület esetében a Korm. r. 4. § (1) bekezdés b) pontja szerinti igazolás",
+                szükseges: false,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+                {
+                id: 4,
+                dokumentum: "foglalkoztatási nyilatkozat(?)",
+                szükseges: false/true,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+                {
+                id: 5,
+                dokumentum: "szennyvíziszap, szennyvíziszap komposzt, vagy szennyvíziszapból készült termésnövelő anyag, vagy szennyvízfelhasználása esetén a jogerős talajvédelmi terv és a szolgáltatóval kötött szerződés másolata",
+                szükseges: false,
+                rendelkezesre_all: false,
+                csatolva: false,
+                }
+            ],
+            kifizetesi_igenyleshez:[
+                {
+                id: 1,
+                dokumentum: "foglalkoztatás bővítése esetén a munkaszerződés másolata",
+                kotelezo_csak: "erdőtelepítés elsőkiviteli támogatás kifizetési igényének benyújtása esetén",
+                szükseges: false/true,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+                {
+                id: 2,
+                dokumentum_a: "foglalkoztatás bővítése esetén a munkaszerződés másolata",
+                dokumentum_b: "vadkárelhárító kerítés, villanypásztor, pontos hosszának és elhelyezkedésének leírása",
+                kotelezo_csak: "ipari célú fás szárú ültetvény telepítés támogatás kifizetési igényének benyújtása esetén",
+                szükseges: false,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+                {
+                id: 3,
+                // A teljes kötelezettségvállalási időszak alatt meg kell őrizni és az Államkincstár
+                // által végzett helyszíni ellenőrzések során az Államkincstárnak,
+                // vagy a képviseletében eljáró hatóságnak be kell tudni mutatni
+                dokumentum: "mérési jegyzőkönyv eredeti, vagy másolati példánya",
+                szükseges: true,
+                rendelkezesre_all: false,
+                csatolva: false,
+                },
+            ]
         }],
         fizetes_esedekessege: "a támogatásra vonatkozó adminisztratív ellenőrzések, keresztellenőrzések, helyszíni ellenőrzések lefolytatása után egy részletben",
         tamogatas_merteke: [
             erdotelepites={
-                id: 1,
-                celallomany_tipus_csoport: "tölgy-bükk és egyéb keménylomb",
-            },
-            {
-                id: 2,
-                celallomany_tipus_csoport: "egyéb lágylomb",
-            },
-            {
-                id: 3,
-                celallomany_tipus_csoport: "akác",
-            },
-            {
-                id: 4   ,
-                celallomany_tipus_csoport: "nemesnyár",
-            },
+                elsokiviteli_koltsege: [
+                {
+                    id: 1,
+                    celallomany_tipus_csoport: "tölgy-bükk és egyéb keménylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 2744
+                },
+                {
+                    id: 2,
+                    celallomany_tipus_csoport: "egyéb lágylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 2082
+                },
+                {
+                    id: 3,
+                    celallomany_tipus_csoport: "akác",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 1803
+                },
+                {
+                    id: 4   ,
+                    celallomany_tipus_csoport: "nemesnyár",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 1596
+                }
+                ],
+                elso_ev_apolasi_koltsege: [
+                {
+                    id: 1,
+                    celallomany_tipus_csoport: "tölgy-bükk és egyéb keménylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 623
+                },
+                {
+                    id: 2,
+                    celallomany_tipus_csoport: "egyéb lágylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 467
+                },
+                {
+                    id: 3,
+                    celallomany_tipus_csoport: "akác",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 467
+                },
+                {
+                    id: 4   ,
+                    celallomany_tipus_csoport: "nemesnyár",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 467
+                }
+                ],
+                masodik_evtol_apolasi_koltseg: [
+                {
+                    id: 1,
+                    celallomany_tipus_csoport: "tölgy-bükk és egyéb keménylomb",
+                    apolasi_idoszak_evben: 11,
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 6624
+                },
+                {
+                    id: 2,
+                    celallomany_tipus_csoport: "egyéb lágylomb",
+                    apolasi_idoszak_evben: 8,
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 2602
+                },
+                {
+                    id: 3,
+                    celallomany_tipus_csoport: "akác",
+                    apolasi_idoszak_evben: 5,
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 1514
+                },
+                {
+                    id: 4   ,
+                    celallomany_tipus_csoport: "nemesnyár",
+                    apolasi_idoszak_evben: 5,
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 1381
+                }
+            ]},
             ipari_celu_fas_szaru_ultetveny={
-                id: 1
+                telepites_koltsege: [
+                {
+                    id: 1,
+                    celallomany_tipus_csoport: "tölgy-bükk és egyéb keménylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 0
+                },
+                {
+                    id: 2,
+                    celallomany_tipus_csoport: "egyéb lágylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 0
+                },
+                {
+                    id: 3,
+                    celallomany_tipus_csoport: "akác",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 1298
+                },
+                {
+                    id: 4   ,
+                    celallomany_tipus_csoport: "nemesnyár",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 1787
+                },
+                ],
+                elso_ev_apolasi_koltsege: [
+                {
+                    id: 1,
+                    celallomany_tipus_csoport: "tölgy-bükk és egyéb keménylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 0
+                },
+                {
+                    id: 2,
+                    celallomany_tipus_csoport: "egyéb lágylomb",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 0
+                },
+                {
+                    id: 3,
+                    celallomany_tipus_csoport: "akác",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 342
+                },
+                {
+                    id: 4   ,
+                    celallomany_tipus_csoport: "nemesnyár",
+                    euronak_megfelelo_forint_osszeg_hektaronkent: 429
+                },
+                ],
+                egyeb_fontos_tudnivalok=[
+                    {
+                    id: 1,
+                    hivatkozas: "3.1.2.2 pont",
+                    cim: "Választható, önállóan nem támogatható tevékenységek",
+                    info_1:
+                        "A) célterület" = {
+                            a: kerítés,
+                            b: villanypásztor,
+                            c: padka,
+                            d: erdőszegély_kialakítása,
+                            e: mikorrhizált_csemete_telepítése,
+                            f: őshonos_ritka_elegyfajok_alkalmazása
+                        },
+                    info_2:
+                        "B) célterület" = {
+                            a: kerítés,
+                            b: villanypásztor_kialakítása
+                        }
+                    },
+                    {
+                    id: 2,
+                    hivatkozas: "5.1 pont, 5.) bekezdés",
+                    cim: "A támogatás formája",
+                    info: "A kiegészítő tevékenységekre vonatkozó kifizetés igénylést az erdőtelepítés esetén az elsőkiviteli kifizetési igényléssel, ültetvény telepítés esetén a kifizetési igényléssel egyidejűleg lehet benyújtani"
+                    },
+                    {
+                    id: 3,
+                    hivatkozas: "5.1 pont, 5.) bekezdés",
+                    cim: "A támogatás formája",
+                    info: ""
+                    }
+                ]
             }
-        ],
-        honlap: "",
-        telefonszam: "",
-        e_mail: ""
+        ]
     }],
     4: "aranykalaszos gazda kepzesek"[{
         id: 2,
