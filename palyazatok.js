@@ -1,8 +1,9 @@
 module.exports.feladatok=()=>{
     let todo = {
-    1: "erdeklodni az uj fiatal gazda palyazatrol: https://szilberhorn.com/fiatal-gazda-palyazat.html",
-    2: "fontos tudnivalok a fiatal gazda palyazatrol: https://fiatalgazdapalyazat.com/",
-    3: "erdotelepites"[{
+    1: "legfrissebb: https://www.palyazatihirek.eu/mezogazdasagi-palyazatok/4744-oriasi-tamogatasok-a-videkfejlesztes-program-kereteben-2",
+    2: "erdeklodni az uj fiatal gazda palyazatrol: https://szilberhorn.com/fiatal-gazda-palyazat.html",
+    3: "fontos tudnivalok a fiatal gazda palyazatrol: https://fiatalgazdapalyazat.com/",
+    4: "erdotelepites"[{
         id: 1,
         honlap: "https://agrarkozosseg.hu/palyazatok/erdosites-tamogatasa-2/",
         telefonszam: "+3670 424 4070",
@@ -238,7 +239,7 @@ module.exports.feladatok=()=>{
             }
         ]
     }],
-    4: "aranykalaszos gazda kepzesek"[{
+    5: "aranykalaszos gazda kepzesek"[{
         id: 2,
         indulas: "egesz evben hetente tobbszor (?)",
         idotartam: "?",
@@ -283,25 +284,25 @@ module.exports.feladatok=()=>{
         telefonszam: "0670 550 0555, 0630 473 0933",
         e_mail: "oktatas@elia.hu"
         }],
-    5: "uj palyazati lehetoseg hamarosan"[{
+    6: "uj palyazati lehetoseg hamarosan"[{
         id: 5,
         honlap: "https://magyarmezogazdasag.hu/2020/12/02/az-elelmiszeripar-fejlesztese-prioritas-lesz"
         }],
-    6: "udemy react course folytatasa",
-    7: "input formot osszevonni a feldolgozott konyvek js objectjevel",
-    8: "megkeresni hova toltottem fel a mobilszolgaltatok.ods-t",
-    9: "megkeresni hova toltottem fel a diakhitel_infok.ods-t",
-    10: "app.plant_learning folytatasa (kesz: html input form)",
-    11: "app.plant_learning html input form-ját függőleges síkba hozni (ne szöveg-hosszúságként eltérő intendálással jelenjen meg az input field, hanem mindegyik a leghosszabb szöveghez igazodjon egy sorba)",
-    12: "app.plant_learninghez uj adatok"[{
+    7: "udemy react course folytatasa",
+    8: "input formot osszevonni a feldolgozott konyvek js objectjevel",
+    9: "megkeresni hova toltottem fel a mobilszolgaltatok.ods-t",
+    10: "megkeresni hova toltottem fel a diakhitel_infok.ods-t",
+    11: "app.plant_learning folytatasa (kesz: html input form)",
+    12: "app.plant_learning html input form-ját függőleges síkba hozni (ne szöveg-hosszúságként eltérő intendálással jelenjen meg az input field, hanem mindegyik a leghosszabb szöveghez igazodjon egy sorba)",
+    13: "app.plant_learninghez uj adatok"[{
         id: 6,
         honlap: "https://magyarmezogazdasag.hu/2020/12/06/letrehoztak-novenyfajok-legnagyobb-katalogusat",
         github: "https://github.com/idiv-biodiversity/lcvplants/"
     }],
-    13: "megkeresni az uj memoriapalotas fajlt (a regi megvan)",
-    14: "piackutatas.ods befejezese",
-    15: "teli_novenyismereti_beszamolo_2019_2020.ods + kepek folytatasa",
-    16: "bme oktatok elerhetosegenek legyujtese",
+    14: "megkeresni az uj memoriapalotas fajlt (a regi megvan)",
+    15: "piackutatas.ods befejezese",
+    16: "teli_novenyismereti_beszamolo_2019_2020.ods + kepek folytatasa",
+    17: "bme oktatok elerhetosegenek legyujtese",
     18: "windows mindmapek (projektek megvalositasanak lepesei mindmanagerben)",
     19: "osszegyujteni a mindmapeket + telepiteni virtualboxot windows 10-el es mindmanagerrel egyutt",
     20: "bevinni ezeket a taskokat task_manager mappaba egy olyan tablazatba mint a telepitett_programok.html",
