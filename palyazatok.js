@@ -1,6 +1,82 @@
-module.exports.feladatok=()=>{
+module.exports.palyazatok=()=>{
     let todo = {
-    1: "legfrissebb: https://www.palyazatihirek.eu/mezogazdasagi-palyazatok/4744-oriasi-tamogatasok-a-videkfejlesztes-program-kereteben-2",
+    1: "akvaponia"[{
+        id: 1,
+        nev: "Mezőgazdasági kisüzemek fejlesztése",
+        felhivas_kodszama: "VP2-6.3.1-20",
+        honlap: "https://palyaz.hu/mezogazdasagi-kisuzemek-fejlesztese-palyazat/?utm_source=google&utm_medium=vp&utm_campaign=orsz&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPN8CwTqPC9RoMDs5KX2dRj9yCSqFCEnki2fYLnR3WrPVaQ96R4QS9hoCxNgQAvD_BwE",
+        e_mail: "",
+        cim: "",
+        palyazok_kore: "őstermelő, egyéni vállalkozó, szociális szövetkezet",
+        idotartam: [{
+            negyedik_szakasz: "2021. 08. 03 - 2021. 08. 07",
+            otodik_szakasz: "2021. 10. 04 - 2021. 10. 18",
+            hatodik_szakasz: "2021. 12. 03 - 2021. 12. 07"
+        }],
+        kivalasztasi_kriteriumok: "igazolható 3000-6000 STE közötti bevétel 2020-ban, VAGY 991.590 Ft és 1.983.180 Ft közötti bevétel 2020-ban, valamint életvitelszerű tartózkodási helye már a támogatási kérelem benyújtását megelőző 12 hónapban a jogosult településen, vidéki térségekben volt",
+        tartalmi_ertekelesi_szempont: [{
+            id: 1,
+        }],
+        tamogatas_formaja: "vissza nem térítendő átalány jellegű támogatás, amellyel a pályázó nem köteles elszámolni a többi pályázatokhoz hasonlóan, azaz szabad-felhasználású",
+        tamogatas_merteke: "5 millió Ft",
+        tamogatas_intenzitasa: "100%",
+        fontos_dolgok_amiket_nem_lehet_leroviditeni:
+                                                    id: 1,
+                                                        "A Kedvezményezett a támogatást 5 évre kapja, amely a projekt működtetési időszaka is egyben. \
+                                                        projekt működtetési időszakának kezdete a Támogatói Okirat hatályba lépését követő nap, a \
+                                                        vége pedig az attól számított 60. hónap utolsó napja."
+                                                    id: 2,
+                                                        "A Támogatói Okirat hatálybalépésével egyidejűleg kerül kifizetésre a támogatási összeg \
+                                                        első részlete (75%-a)."
+                                                    id: 3,
+                                                        "A Támogatói Okirat hatálybalépését követő naptól számított legfeljebb 9 hónapon belül meg kell \
+                                                        kezdeni a projekt végrehajtását, amelyet az ÁÚF 8.6.1 pontjában foglaltak szerint tudnia kell \
+                                                        igazolni. A projekt megkezdését igazoló szakmai beszámolót a záró kifizetési kérelemmel együtt \
+                                                        kell benyújtani."
+                                                    id:4,
+                                                        "A kedvezményezett vállalja, hogy a Támogatói Okirat hatályba lépésétől a záró kifizetési kérelem \
+                                                        benyújtását megelőző év január 1-ig mezőgazdasági termelő tevékenységből származó üzemmérete \
+                                                        nem csökken 3000 euro STÉ érték, vagy a mezőgazdasági termelő tevékenységből és Annex 1 \
+                                                        termék feldolgozási tevékenységből származó értékesítés nettó árbevétele a 3000 euró alá, attól \
+                                                        függően, hogy mely tevékenység alapján tette vállalását és kapott Támogatói Okiratot."
+
+                                                    id: 5,
+                                                        "Legkésőbb a Támogatói Okirat hatálybalépésétől számított 4. év végére (január 1 – december 31 \
+                                                        közötti időszak) a Kedvezményezett mezőgazdasági termelő tevékenységből származó üzemmérete \
+                                                        meg kell, hogy haladja a 6000 euro STÉ értéket, vagy a mezőgazdasági termelő tevékenységből és \
+                                                        Annex 1 termék feldolgozási tevékenységből származó értékesítés nettó árbevétele a 6000 eurót, \
+                                                        attól függően, hogy mely tevékenység alapján tette vállalását és kapott Támogatói Okiratot. Erre \
+                                                        vonatkozóan a kedvezményezett szakmai beszámolót köteles benyújtani. Az üzleti terv \
+                                                        megvalósításával elért üzemméret, árbevétel eredményeket a működtetési időszak végéig \
+                                                        (Támogatói Okirat hatályba lépését követő 60. hónap végéig) fenn kell tartani."
+
+                                                    id: 6,
+                                                        "A Kedvezményezett a támogatási összeg fennmaradó 25%-os részére vonatkozó kifizetési kérelmet \
+                                                        (záró kifizetési kérelem) a 5. pontban meghatározott feltételek teljesítésekor jogosult benyújtani, \
+                                                        a teljesítést követő év június 15-ig, de nem korábban, mint a Támogatói Okirat hatálybalépésétől \
+                                                        számított 3. év vége."
+                                                    id: 7,
+                                                        "Kötelező képzésen való részvételt teljesíteni kell a záró kifizetési kérelem benyújtásáig, amely \
+                                                        a kedvezményezett számára térítésmentes. A kötelező képzésen való részvételt a képzést \
+                                                        szervező igazolja a kifizető ügynökség felé. Amennyiben a képzés szervezője nem igazolja le a \
+                                                        kifizető ügynökség felé, abban az esetben a Kedvezményezett az utolsó kifizetési kérelem \
+                                                        benyújtásakor köteles igazolni."
+                                                    id: 8,
+                                                        "Amennyiben a Kedvezményezett valamely kötelezettségét nem tudja teljesíteni, akkor a \
+                                                        jogkövetkezmény alól csak abban az esetben mentesülhet, amennyiben az elmaradás oka \
+                                                        vis maior esemény bekövetkezése. Az elháríthatatlan külső okokra (vis maiorra) vonatkozó \
+                                                        szabályokat az Európai Mezőgazdasági Vidékfejlesztési Alapból, valamint az Európai Tengerügyi \
+                                                         és Halászati Alapból finanszírozott intézkedések megvalósulásának időtartama alatt, \
+                                                         elháríthatatlan külső ok (vismaior) esetén alkalmazandó egyes szabályokról szóló 57/2015. \
+                                                         (XII. 23.) MvM rendelet, valamint az elháríthatatlan külső ok (vis maior) esetén \
+                                                         alkalmazandó egyes szabályokról és a vis maiorral összefüggő egyes miniszteri rendeletek \
+                                                         módosításáról szóló 94/2015. (XII. 23.) FM rendelet állapítja meg."
+                                                    id: 9,
+                                                        "A projekt működtetési időszakának végéig a Kedvezményezett köteles őstermelő, vagy \
+                                                        mikrovállalkozásnak és mezőgazdasági termelőnek minősülő egyéni vállalkozó, vagy szociális \
+                                                        szövetkezet minősítését fenntartani."
+    }],    
+    1: "mezogazdasagi_tamogatasoknak_utananezni: https://www.palyazatihirek.eu/mezogazdasagi-palyazatok/4744-oriasi-tamogatasok-a-videkfejlesztes-program-kereteben-2",
     2: "erdeklodni az uj fiatal gazda palyazatrol: https://szilberhorn.com/fiatal-gazda-palyazat.html",
     3: "fontos tudnivalok a fiatal gazda palyazatrol: https://fiatalgazdapalyazat.com/",
     4: "erdotelepites"[{
