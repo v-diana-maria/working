@@ -7,10 +7,27 @@ module.exports.palyazatok=()=>{
         honlap: "https://www.palyazat.gov.hu/vp2-4137-20-csemetekertek-gpbeszerzse",
         e_mail: "",
         cim: "",
+        telefon: [
+            {
+                szam: "06/1 896-0000",
+                elerheto: "hétfőtől csütörtökig 8:30-16 óráig, pénteken 8:30-14 óráig"
+            }
+        ],
         palyazok_kore: [{
             id: 1,
             meghatarozas: "mezőgazdasági termelők",
-            feltetel: "",
+            feltetel: [
+                        {
+                            id: 1,
+                            meghatarozas: "legalább 6000 euró STÉ üzemmérettel rendelkeznek \
+                                (a támogatási kérelem benyújtását megelőző, vagy amennyiben erre vonatkozóan nem rendelkeznek adatokkal, \
+                                az azt megelőző teljes lezárt üzleti évben - fiatal mezőgazdasági termelő esetében lezárt üzleti évben)",
+                        },
+                        {
+                            id: 2,
+                            meghatarozas: "üzemméret teljes meghatározása",
+                        },
+            ]
         },
         {
             id: 2,
@@ -28,6 +45,54 @@ module.exports.palyazatok=()=>{
         tamogatas_formaja: "vissza nem térítendő (fiatal mezőgazdasági termelő számára 10 százalékponttal megemelt támogatási intenzitás jár)",
         tamogatas_merteke: "max. 50 millió Ft",
         tamogatas_intenzitasa: "",
+        kotelezoen_megvalositando_onalloan_tamogathato_tevekenysegek: [
+            {
+                id: 1,
+                hatarozat: "traktorok (Kizárólag 1 db, 100 kW teljesítményt meg nem haladó, és 1 db 20 kW teljesítményt meg nem \
+                    haladó traktor beszerzése támogatható)"
+            },
+            {
+                id: 2,
+                hatarozat: "terület-előkészítés gépei"
+            },
+            {
+                id: 3,
+                hatarozat: "talaj-előkészítés gépei"
+            },
+            {
+                id: 4,
+                hatarozat: "növényvédelem gépei"
+            },
+            {
+                id: 5,
+                hatarozat: "szaporítóanyag-termesztés gépei"
+            }
+        ],
+        kotelezoen_megvalositando_onalloan_nem_tamogathato_tevekenysegek: [
+            {
+                id: 1,
+                hatarozat: "tájékoztatással, nyilvánossággal kapcsolatos kötelezettségek teljesítése (ÁÚF 10. fejezete)"
+            }
+        ],
+        valaszthato_onalloan_nem_tamogathato_tevekenysegek: [
+            {
+                id: 1,
+                hatarozat: "projekt-előkészítés"
+            },
+            {
+                id: 2,
+                hatarozat: "projekt-menedzsment"
+            },
+            {
+                id: 3,
+                hatarozat: "a felhívás 3.1.1.1. fejezete alapján kötelezően megvalósítandó önállóan támogatható tevékenységekhez kapcsolódó vezérlő, \
+                            térinformatikai szoftverek megvásárlása"
+            },
+            {
+                id: 4,
+                hatarozat: "üzemen belüli anyagmozgatás gépei (pl.: targonca, rakodógép) a Felhívás 5.7 pontjában foglalt korlátozás figyelembe vételével"
+            }
+        ],
         elszamolhato_koltsegek: [
             {
                 id: 1,
