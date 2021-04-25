@@ -5,12 +5,14 @@ module.exports.palyazatok=()=>{
         id: 1,
         felhivas_kodszama: "VP2-4.1.3.7-20",
         honlap: "https://www.palyazat.gov.hu/vp2-4137-20-csemetekertek-gpbeszerzse",
-        e_mail: "",
-        cim: "",
+        e_mail: "mv.ugyfelszolgalat@allamkincstar.gov.hu",
+        cim: "1095 Budapest, Soroksári út 22-24.",
         telefon: [
             {
-                szam: "06/1 896-0000",
-                elerheto: "hétfőtől csütörtökig 8:30-16 óráig, pénteken 8:30-14 óráig"
+                szam_1: "06/1 896-0000",
+                szam_2: "06/1 374-3603",
+                szam_3: "06/1 374-3604",
+                elerheto: "hétfőtől csütörtökig 8-12, 13-16 óráig, pénteken 8-12, 13-14 óráig"
             }
         ],
         palyazok_kore: [{
@@ -27,12 +29,21 @@ module.exports.palyazatok=()=>{
                             id: 2,
                             meghatarozas: "üzemméret teljes meghatározása",
                         },
+                        {
+                            id: 3,
+                            meghatarozas: "támogatást igénylő székhelye/lakhelye szerint illetékes megyei kormányhivatal által földművelésügyi \
+                            igazgatási jogkörben kiállított igazolással, (a felhívás 3. számú melléklete szerint) amely tartalmazza az üzemméret \
+                            számításánál figyelembe vett terület nagyságát és hasznosítási kódját"
+                        },
+                        {
+                            id: 4,
+                            meghatarozas: "Állattartással összefüggő üzemméret számítás alapja a Nemzeti Élelmiszerlánc-biztonsági Hivatal \
+                            (a továbbiakban: NÉBIH) által a támogatást igénylőhöz, mint tartóhoz nyilvántartásba vett tenyészetekben tartott állat \
+                            lehet. Ha az üzemméret számítás alapját képező állat szarvasmarha, anyajuh, vagy anyakecske akkor az érintett állatfaj \
+                            tekintetében a teljes lezárt üzleti év vonatkozásában az ENAR nyilvántartásba bejelentett éves átlagos állatlétszámot \
+                            kell az üzemméret számításánál figyelembe venni."
+                        }
             ]
-        },
-        {
-            id: 2,
-            meghatarozas: "kormány előzetes hozzájárulásával: többségi állami tulajdonban álló gazdasági társaság, illetve központi költségvetési szerv",
-            feltetel: ""
         }],
         idotartam: [{
             otodik_szakasz: "2021. 05. 11 - 2021. 05. 18",
@@ -126,7 +137,7 @@ module.exports.palyazatok=()=>{
     }],
     2: "irinyi"[{
         id: 2,
-        nev: "Irinyi Tőkeprogram",
+        nev: "Irinyi Tőkeprogram (lejárt benyújtási határidő!)",
         felhivas_kodszama: "VP2-6.3.1-20",
         honlap: "",
         e_mail: "",
