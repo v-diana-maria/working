@@ -107,30 +107,51 @@ module.exports.palyazatok=()=>{
         elszamolhato_koltsegek: [
             {
                 id: 1,
-                koltseg: "hatósági eljárási díjak"
+                koltseg: "traktorok",
+                reszletezes: "kizárólag 1 db, 100 kW teljesítményt meg nem haladó, és 1 db 20 kW teljesítményt meg nem haladó traktor beszerzése támogatható"
             },
             {
                 id: 2,
-                koltseg: "közbeszerzési eljárások lefolytatásának díjai"
+                koltseg: "terület-előkészítés gépei"
             },
             {
                 id: 3,
-                koltseg: "könyvvizsgálat díja"
+                koltseg: "talaj-előkészítés gépei"
             },
             {
                 id: 4,
-                koltseg: "tanácsadói költségek"
+                koltseg: "növényvédelem gépei"
             },
             {
                 id: 5,
-                koltseg: "projekt-előkészítési és projekt-menedzsment költségek"
+                koltseg: "szaporítóanyag-termesztés gépei"
             },
             {
                 id: 6,
-                koltseg: "tájékoztatás, nyilvánosság biztosításának költségei"
+                koltseg: "hatósági eljárási díjak"
             },
             {
                 id: 7,
+                koltseg: "közbeszerzési eljárások lefolytatásának díjai"
+            },
+            {
+                id: 8,
+                koltseg: "könyvvizsgálat díja"
+            },
+            {
+                id: 9,
+                koltseg: "tanácsadói költségek"
+            },
+            {
+                id: 10,
+                koltseg: "projekt-előkészítési és projekt-menedzsment költségek"
+            },
+            {
+                id: 11,
+                koltseg: "tájékoztatás, nyilvánosság biztosításának költségei"
+            },
+            {
+                id: 12,
                 koltseg: ""
             },
         ]

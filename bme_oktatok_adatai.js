@@ -47,6 +47,8 @@ export const bme_oktatok = [
     {
         id: 2,
         targy:               'Mérnök leszek',
+        szemeszter:           1,
+        kredit:               2,
         oktato_1: [
             {
                 nev:         'Dr. Hercegfi Károly',
